@@ -12,9 +12,9 @@ if (a > b):
         print (c,a,b)
 else:
     if (b > c):
-        if (c > a):  
-            print (b,a,c)
-        else:
+        if (c > a):
             print (b,c,a)
+        else:
+            print (b,a,c)
     else:
         print (c,b,a)
